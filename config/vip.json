@@ -1,0 +1,46 @@
+{
+  "type": "spa",
+  "baseStep": {
+    "rootPath": "vip",
+    "filePath": "memberCard",
+    "fileName": "memberCard",
+    "wrapEle": "#memberCard",
+    "indexUrl": "http://localhost:3131/singlepage/membercard",
+    "pageTimeout": 200,
+    "inputTimeout": 100,
+    "stepList": [
+      {
+        "type": "button",
+        "ele": ".m-btn",
+        "eventType": "tap",
+        "fileName": "open",
+        "screenShot": true
+      },
+      {
+        "type": "domList",
+        "ele": ".m-list .item",
+        "eventType": "tap",
+        "fileName": "domList",
+        "wrapEle": "#memberRights",
+        "screenShot": true
+      }
+    ]
+  },
+  "pageList": [{
+    "filePath": "memberPay",
+    "wrapEle": "#memberPay",
+    "fileName": "memberPay",
+    "screenShot": true,
+    "pageTimeout": 500,
+    "inputTimeout": 50,
+    "stepList": [
+      {
+        "type": "button",
+        "ele": "#memberPay .m-btn .title",
+        "eventType": "click",
+        "fileName": "test",
+        "screenShot": true
+      }
+    ]
+  }]
+}

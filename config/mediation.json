@@ -1,0 +1,69 @@
+{
+  "type": "spa",
+  "baseStep": {
+    "rootPath": "agency",
+    "filePath": "home",
+    "fileName": "index",
+    "wrapEle": ".wrap",
+    "indexUrl": "http://singlepage.rong360.com/singlepage/agency/asdasd",
+    "pageTimeout": 500,
+    "inputTimeout": 100,
+    "stepList": [{
+        "type": "input",
+        "ele": "[placeholder='本人姓名']",
+        "value": "张三",
+        "screenShot": false
+      },
+      {
+        "type": "input",
+        "ele": "[placeholder='本人身份证']",
+        "value": "360822198609284091",
+        "screenShot": false
+      },
+      {
+        "type": "button",
+        "ele": ".select-bank",
+        "eventType": "tap",
+        "fileName": "selectBank",
+        "screenShot": true
+      },
+      {
+        "type": "button",
+        "ele": ".popup .next",
+        "eventType": "tap",
+        "screenShot": false
+      },
+      {
+        "type": "input",
+        "ele": "[placeholder='收款银行卡号']",
+        "value": "6222600260001072444",
+        "screenShot": false
+      },
+      {
+        "type": "input",
+        "ele": "[placeholder='银行卡预留手机号']",
+        "value": "18611287904",
+        "screenShot": false
+      },
+      {
+        "type": "input",
+        "ele": "[placeholder='短信验证码']",
+        "value": "132123",
+        "screenShot": false
+      },
+      {
+        "type": "button",
+        "ele": ".ft .btn",
+        "eventType": "tap",
+        "fileName": "submint",
+        "screenShot": true
+      }
+    ]
+  },
+  "pageList": [{
+    "filePath": "agencyResult",
+    "wrapEle": ".wrap",
+    "fileName": "agencyResult",
+    "pageTimeout": 800
+  }]
+}

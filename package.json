@@ -1,0 +1,36 @@
+{
+  "name": "rui-site-scan",
+  "version": "1.0.0",
+  "description": "CLI for capturing website screenshots",
+  "main": "lib/rui-site-scan.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cindyzhu/rui-site-scan.git"
+  },
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "express": "^4.16.3",
+    "mime": "^2.3.1",
+    "minimist": "^1.2.0",
+    "puppeteer": "^1.7.0"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "site",
+    "scan",
+    "chrome",
+    "screenshot",
+    "puppe",
+    "puppeteer"
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "start": "node lib/rui-site-scan.js"
+  },
+  "bin": {
+    "ruiscan": "./lib/rui-site-scan.js"
+  },
+  "author": "cindy",
+  "license": "ISC"
+}
