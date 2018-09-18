@@ -12,8 +12,8 @@ $ npm install rui-site-scan -g
 
 You can use `ruiscan` or just `rscan`:
 ```
-$ sitescan [options] [url(s)]
-$ ss [options] [url(s)]
+$ ruiscan [options] [url(s)]
+$ rscan [options] [url(s)]
 ```
 
 # Options
