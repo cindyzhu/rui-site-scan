@@ -7,6 +7,20 @@
     "wrapEle": "#page",
     "indexUrl": "https://m.baidu.com",
     "pageTimeout": 500,
-    "inputTimeout": 300
+    "inputTimeout": 300,
+    "stepList": [{
+        "type": "input",
+        "ele": "#index-kw",
+        "value": "张三",
+        "screenShot": false
+      },
+      {
+        "type": "button",
+        "ele": "#index-bn",
+        "eventType": "click",
+        "fileName": "search",
+        "screenShot": true
+      }
+    ]
   }
 }
