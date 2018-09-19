@@ -1,0 +1,12 @@
+{
+  "type": "spa",
+  "baseStep": {
+    "rootPath": "test",
+    "filePath": "baidu",
+    "fileName": "index",
+    "wrapEle": "#page",
+    "indexUrl": "https://m.baidu.com",
+    "pageTimeout": 500,
+    "inputTimeout": 300
+  }
+}
